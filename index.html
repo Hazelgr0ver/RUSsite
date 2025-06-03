@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Методическое пособие для студентов">
+  <title>Методическое пособие</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Хедер -->
+  <header class="header">
+    <div class="container header-content">
+      <!-- Логотип и название -->
+      <div class="site-branding">
+        <div class="logo">
+          <img src="assets/logo.png" alt="Логотип Читадель" class="logo-image">
+        </div>
+        <div class="site-title">
+          <h1>#брендголос</h1>
+        </div>
+      </div>
+  
+      <!-- Навигация -->
+      <nav class="nav">
+        <ul>
+          <li><a href="#theory" class="btn btn-white btn-animated">Теория</a></li>
+          <li><a href="#contacts" class="btn btn-white btn-animated">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+<!-- Бургер-меню -->
+<div class="burger-menu">
+    <button class="burger-button" id="burgerButton">
+      ☰ <!-- Символ бургера -->
+    </button>
+    <div class="burger-links" id="burgerLinks">
+      <a href="#theory" class="btn btn-white">Теория</a>
+      <a href="#contacts" class="btn btn-white">Контакты</a>
+    </div>
+  </div>
+  <!-- Основной контент -->
+  <main class="main">
+    <div class="top-image">
+  <img src="./files/Image/Глав.стр.jpg" alt="Фото на фоне">
+    </div>
+    
+
+    <section id="theory" class="section">
+        <div class="container">
+          <h2>Теоретический материал</h2>
+          <p>В этом разделе представлены лекции и основные темы курса.</p>
+          <!-- Кнопки для лекций -->
+          <div class="lecture-buttons">
+            <a href="lecture1/lecture1.html" class="lecture-button">Лекция 1: Влияние Web-среды на текст</a>
+            <a href="lecture2/lecture2.html" class="lecture-button">Лекция 2: PR-текст: сущностные характеристики</a>
+            <a href="lecture3/lecture3.html" class="lecture-button">Лекция 3: Жанры PR-текста</a>
+            <a href="lecture4/lecture4.html" class="lecture-button">Лекция 4: Медиатексты в системе бренд-менеджмента</a>
+          </div>
+        </div>
+      </section>
+
+   
+
+    
+
+    <section id="contacts" class="section">
+      <div class="container">
+        <h2>Контакты</h2>
+        <p>Если у вас есть вопросы, свяжитесь с нами:</p>
+        <p>Email: example@example.com</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Футер -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Методическое пособие. Создан в образовательных целях.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
